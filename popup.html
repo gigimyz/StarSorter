@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css">
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+    <script src="print.js"></script>
+    <script src="tools.js"></script>
+    <script src="sortable.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" type="text/css" href="font.css">
   </head>
   <body>
-    <button id="changeColor"></button>
-  </body>
-</html>
+    <div class="header">
+        <div id="search_header">
+            <input type="text" class="form-control" id="search" placeholder="Search">
+            <img src="icons/search.png" id="search_icon" />
+            <button type="submit" id="resetSearch"><img src="icons/cancel.png"></button>
+        </div>
+        <img src="icons/file.png" id="learn" />
+    </div>
+
+    <div id="bookmarks">
+    <p> Test </p>
+    </div>
+  </body> 
