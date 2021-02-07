@@ -1,47 +1,343 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="jquery.min.js"></script>
-    <script src="popup.js"></script>
-    <script src="print.js"></script>
-    <script src="tools.js"></script>
-    <script src="sortable.js"></script>
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <!-- Material Design fonts -->
-    <link rel="stylesheet" type="text/css" href="font.css">
-  </head>
-  <body>
-   <div class="header">
-        <div id="search_header">
-            <input type="text" class="form-control" id="search" placeholder="Search">
-            <!--<img src="icons/search.png" id="search_icon" />-->
-            <button type="submit" id="resetSearch"; style="margin-right: 50px">
-            <img src="icons/search.png"></button>
-            
-          </div>
-        <img src="icons/file.png" id="learn" />
+
+<head>
+  <script src="jquery.min.js"></script>
+  <script src="popup.js"></script>
+  <script src="print.js"></script>
+  <script src="tools.js"></script>
+  <script src="sortable.js"></script>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+
+<body>
+  <div class="header">
+    <div id="search_header">
+      <input type="text" class="form-control" id="search" placeholder="Search">
+      <!--<img src="icons/search.png" id="search_icon" />-->
+      <button type="submit" id="resetSearch" ; style="margin-right: 50px">
+        <img src="icons/search.png"></button>
+
     </div>
-  
-    <div id="bookmarks">
-    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
-    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
-    -->
-    <p> </p>
-    <img style="margin-left: 10px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px" src="icons/education.png">
-    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
-      Education
-</div>
-  
+    <img src="icons/file.png" id="learn" />
   </div>
-  </body> 
-    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
-    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
-    -->
-    <p> </p>
-    <img style="margin-left: 10px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px" src="icons/education.png">
-    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
-      Education
-</div>
   
 
+  <div id="bookmarks">
+    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
+    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
+    -->
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/education.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Education
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/social.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Social Media
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/productivity.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Productivity
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/food.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Food
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/vacation.png">
+    <!--<div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Vacation
+    </div>-->
+
+    <div class="dropdown">
+      <a href="popup.html" button class="dropbtn" style="color:#1C2A50"> Vacation </a>
+      <div class="dropdown-content">
+        <a href="https://www.expedia.ca/">Expedia</a>
+        <a href="https://www.trivago.ca/">Trivago</a>
+        <a href="https://www.booking.com/">Booking</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <img style="margin-bottom: 10px; margin-left: 15px; vertical-align:middle; width:30px; height:30px;"
+    src="icons/chatbox.png">
+  <!--<div style="color: #ffffff; margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Click to chat!
+    </div>-->
+  <a href="chatbox.html" class="button"> Click to chat! </a>
+</body>
+        <img src="icons/search.png"></button>
+
+    </div>
+    <img src="icons/file.png" id="learn" />
+  </div>
+  
+
+  <div id="bookmarks">
+>>>>>>> 2bb43eee36b4e1ad290e4f36e26974b1bc3fe0eb
+    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
+    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
+    -->
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/education.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Education
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/social.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Social Media
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/productivity.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Productivity
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/food.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Food
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/vacation.png">
+    <!--<div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Vacation
+    </div>-->
+
+    <div class="dropdown">
+      <a href="popup.html" button class="dropbtn" style="color:#1C2A50"> Vacation </a>
+      <div class="dropdown-content">
+        <a href="https://www.expedia.ca/">Expedia</a>
+        <a href="https://www.trivago.ca/">Trivago</a>
+        <a href="https://www.booking.com/">Booking</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <img style="margin-bottom: 10px; margin-left: 15px; vertical-align:middle; width:30px; height:30px;"
+    src="icons/chatbox.png">
+  <!--<div style="color: #ffffff; margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Click to chat!
+    </div>-->
+  <a href="chatbox.html" class="button"> Click to chat! </a>
+</body>
+        <img src="icons/search.png"></button>
+
+    </div>
+    <img src="icons/file.png" id="learn" />
+  </div>
+  
+
+  <div id="bookmarks">
+>>>>>>> 2bb43eee36b4e1ad290e4f36e26974b1bc3fe0eb
+    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
+    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
+    -->
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/education.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Education
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/social.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Social Media
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/productivity.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Productivity
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/food.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Food
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/vacation.png">
+    <!--<div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Vacation
+    </div>-->
+
+    <div class="dropdown">
+      <a href="popup.html" button class="dropbtn" style="color:#1C2A50"> Vacation </a>
+      <div class="dropdown-content">
+        <a href="https://www.expedia.ca/">Expedia</a>
+        <a href="https://www.trivago.ca/">Trivago</a>
+        <a href="https://www.booking.com/">Booking</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <img style="margin-bottom: 10px; margin-left: 15px; vertical-align:middle; width:30px; height:30px;"
+    src="icons/chatbox.png">
+  <!--<div style="color: #ffffff; margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Click to chat!
+    </div>-->
+  <a href="chatbox.html" class="button"> Click to chat! </a>
+</body>
+        <img src="icons/search.png"></button>
+
+    </div>
+    <img src="icons/file.png" id="learn" />
+  </div>
+  
+
+  <div id="bookmarks">
+>>>>>>> 2bb43eee36b4e1ad290e4f36e26974b1bc3fe0eb
+    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
+    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
+    -->
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/education.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Education
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/social.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Social Media
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/productivity.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Productivity
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/food.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Food
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/vacation.png">
+    <!--<div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Vacation
+    </div>-->
+
+    <div class="dropdown">
+      <a href="popup.html" button class="dropbtn" style="color:#1C2A50"> Vacation </a>
+      <div class="dropdown-content">
+        <a href="https://www.expedia.ca/">Expedia</a>
+        <a href="https://www.trivago.ca/">Trivago</a>
+        <a href="https://www.booking.com/">Booking</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <img style="margin-bottom: 10px; margin-left: 15px; vertical-align:middle; width:30px; height:30px;"
+    src="icons/chatbox.png">
+  <!--<div style="color: #ffffff; margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Click to chat!
+    </div>-->
+  <a href="chatbox.html" class="button"> Click to chat! </a>
+</body>
+        <img src="icons/search.png"></button>
+
+    </div>
+    <img src="icons/file.png" id="learn" />
+  </div>
+  
+
+  <div id="bookmarks">
+>>>>>>> 2bb43eee36b4e1ad290e4f36e26974b1bc3fe0eb
+    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
+    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
+    -->
+    <p> </p>
+        <img src="icons/search.png"></button>
+
+    </div>
+    <img src="icons/file.png" id="learn" />
+  </div>
+  
+
+  <div id="bookmarks">
+>>>>>>> 2bb43eee36b4e1ad290e4f36e26974b1bc3fe0eb
+    <!--<img src="icons/education.png" style="width:30px;height:30px; margin-left: 10px; margin-top: 10px;"/>
+    <p style="padding: 70px 10px; font-size: 12pt; font-family: Roboto; display: inline-block; "> Education </p>
+    -->
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/education.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Education
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/social.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Social Media
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/productivity.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Productivity
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/food.png">
+    <div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Food
+    </div>
+    <p> </p>
+    <img style="margin-left: 15px; vertical-align:middle; width:30px; height:30px; padding: 0px 0px"
+      src="icons/vacation.png">
+    <!--<div style="margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Vacation
+    </div>-->
+
+    <div class="dropdown">
+      <a href="popup.html" button class="dropbtn" style="color:#1C2A50"> Vacation </a>
+      <div class="dropdown-content">
+        <a href="https://www.expedia.ca/">Expedia</a>
+        <a href="https://www.trivago.ca/">Trivago</a>
+        <a href="https://www.booking.com/">Booking</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <img style="margin-bottom: 10px; margin-left: 15px; vertical-align:middle; width:30px; height:30px;"
+    src="icons/chatbox.png">
+  <!--<div style="color: #ffffff; margin-left: 10px; vertical-align:middle; display:inline;font-size: 12pt; font-family: Roboto;">
+      Click to chat!
+    </div>-->
+  <a href="chatbox.html" class="button"> Click to chat! </a>
+</body>

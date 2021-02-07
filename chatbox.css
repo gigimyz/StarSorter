@@ -20,7 +20,8 @@ body {
 
 #search {
     position: relative;
-    margin-top: 5px;
+    margin-top: 420px;
+    margin-bottom: 10px;
     margin-left: 14px;
     top: 1px;
     width: 300px;
@@ -73,7 +74,7 @@ body {
 }
  
 #search_icon {
-    margin-right: 25px;
+    margin-right: 15px;
     margin-top: 15px;
     width: 1.7rem;
     height: 1.7rem;
@@ -83,8 +84,9 @@ body {
 #resetSearch {
     width: 30px;
     height: 30px;
+    margin-top: 468px;
     position: absolute;
-    right: 5px;
+    right: 0px;
     top: 7px;
     padding: 5px 5px 5px 5px;
     background-color: #ffffff;
@@ -226,7 +228,12 @@ body {
 a.button:hover {
     /*background-color: rgb(134, 0, 196);
     background-color: rgb(174, 0, 255);*/
-    color: #718ace;
+    color: #1C2A50;
+}
+
+a.aboutButton:hover {
+    /*background-color: rgb(134, 0, 196);*/
+    color: #1C2A50;
 }
 
 .projectTable td {
