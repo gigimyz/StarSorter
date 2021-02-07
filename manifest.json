@@ -1,6 +1,6 @@
 {
     "name": "StarSorter",
-    "description": "Build an Extension!--",
+    "description": "Sort your bookmarks automatically all in one spot",
     "version": "1.0",
     "manifest_version": 3,
       "permissions": [
